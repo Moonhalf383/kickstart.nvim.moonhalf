@@ -12,7 +12,7 @@ return {
         end
       end,
       -- 打开终端的快捷键，这里设置为 Ctrl + \
-      open_mapping = [[<A-t>]],
+      open_mapping = [[<leader>tt]],
       -- 隐藏 toggleterm buffer 中的行号
       hide_numbers = true,
       -- 当 Neovim 目录切换时，终端下次打开也会切换到相应目录

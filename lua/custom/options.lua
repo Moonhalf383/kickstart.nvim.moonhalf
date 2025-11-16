@@ -110,3 +110,6 @@ vim.o.softtabstop = 4
 
 -- Number of spaces a real <Tab> character counts for (for displaying old files)
 vim.o.tabstop = 4
+
+-- [[Lsp Settings]]
+vim.lsp.enable 'lua_ls'
